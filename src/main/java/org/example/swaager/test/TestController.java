@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class TestController {
 
-    @Operation(summary = "this api is awesome")
+    @Operation(summary = "this api ddis awesome")
     @RequestMapping(method = RequestMethod.GET, value = "/ex01")
     public ResponseEntity<String> ex01(String arg01, String arg02){
         System.out.println(arg01);
